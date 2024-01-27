@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{ 
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+ 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(fto1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: #e0b5b5;
+    margin: 0;
+   
+  
+ 
+}
+main{
+   background-color: #f3f3e6;
+   border-radius: 10px;
+   box-shadow:8px 8px 5px rgba(23, 3, 27, 0.5);
+   border: 1px solid #e0e0e0;
+
+   padding: 10px;
+   max-width: 600px; 
+  width:100%;
+
+}
+h1 {
+
+  color:#c71072;
+  text-align: center;
+  text-shadow: 1px 1px 2px #962a6288 ;
+  font-family: 'Sevillana', cursive;
+  font-size:2.5em;
+  }
+  h2{
+    color:#FBBA72;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.70em;
+    
+}
+p{
+  text-align: justify;
+  font-family:'Quicksand', sans-serif;
+  margin-bottom: 20px;
+}
+li{
+  font-family: 'Quicksand', sans-serif;
+} 
+
+/*animaçoes nos icones*/
+.img2{
+  transition: transform 0.4s ease-in-out;
+}
+.img2:hover {
+  transform: scale(1.5);
+}
+.img3{
+  transition: transform 0.3s ease-in-out;
+}
+.img3:hover {
+  transform: scale(1.5);
+}
+a {
+  color: #c71072;
+  text-decoration:none ;
+  transition: color 0.3s ease-in-out;
+}
+
+
+  
+  
