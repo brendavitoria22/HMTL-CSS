@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:rgb(1, 255, 14);
+            font-weight: bold;
+        }
+        a:visited{
+            color:rgb(207, 55, 55);
+        }
+        a:hover{
+            color:rgb(51, 116, 56);
+            text-decoration:underline ;
+        }
+        a:active{
+            color:blueviolet;
+        }
+        a::before{
+            content: '⇒';
+        }
+        a:after{
+            content: '⇐';
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+       <li><a href="https://github.com/brendavitoria22" target="_blank" rel="external" >Repositorio GitHub</a></li>
+       <li><a href="https://www.instagram.com/brenda.vitoriaaa/" target="external">Instagram</a></li>
+       <li><a href="https://www.linkedin.com/in/brenda-vitoria-829a73232/" target="external">Linkedin</a></li>
+    </ul>
+</body>
+</html>
